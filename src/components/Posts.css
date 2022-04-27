@@ -4,12 +4,11 @@
   align-items: center;
   padding: 10px;
   margin: 10px;
-  background-color: rgb(208, 198, 198);
+  background-color: rgb(213, 209, 209);
   justify-content: space-between;
   width: 40%;
 }
 .post1 {
-  background-color: pink;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -33,15 +32,19 @@
   height: 50px;
   width: 50px;
   border-radius: 50%;
-  padding: 20px;
 }
 .post1-a {
   display: flex;
   flex-direction: column;
 }
 .post2 {
-  background-color: red;
+}
+.like {
+  color: red;
+  margin: 0 200px 0;
+  padding: 20px;
 }
 .post3 {
-  background-color: yellow;
+  display: flex;
+  flex-direction: row;
 }

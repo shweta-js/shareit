@@ -1,7 +1,8 @@
-import { faEllipsisVertical } from '@fortawesome/free-solid-svg-icons'
+import { faEllipsisVertical, faHeart, faMessage } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 import "./Posts.css"
+import ppost from '../assets/1.jpg';
 
 const Posts = () => {
     return (
@@ -15,10 +16,11 @@ const Posts = () => {
                 <h4><FontAwesomeIcon className="home-icons" icon={faEllipsisVertical}/></h4>
             </div>
             <div className="post2">
-                <img src="../assets/1.jpg"></img>
+                <img src={ppost} alt="post"/>
             </div>
             <div className="post3">
-                likes
+                <h4><FontAwesomeIcon className="like" icon={faHeart}/></h4>
+                <h4><FontAwesomeIcon className="like" icon={faMessage}/></h4>
             </div>
             
         </div>
