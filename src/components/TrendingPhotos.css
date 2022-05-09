@@ -1,0 +1,21 @@
+img {
+  height: 180px;
+  width: 180px;
+  padding: 10px;
+}
+.trendingpics {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.trendingpix-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: grey;
+  border-style: solid;
+  border-color: rgb(199, 191, 191);
+  border-width: 2px;
+  padding: 10px;
+  margin: 10px;
+}

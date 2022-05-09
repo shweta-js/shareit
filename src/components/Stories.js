@@ -1,10 +1,11 @@
 import React from 'react'
 import "./Stories.css"
-import story1 from "../assets/200.webp"
-import story2 from "../assets/story2.webp"
-import story3 from "../assets/story3.webp"
-import story4 from "../assets/story4.webp"
-import story5 from "../assets/story5.webp"
+import story1 from "../assets/tp1.jpg"
+import story2 from "../assets/tp2.jpg"
+import story3 from "../assets/tp3.gif"
+import story4 from "../assets/tp4.gif"
+import story5 from "../assets/tp5.jpg"
+
 const Stories = () => {
     return (
         <div className="stories">

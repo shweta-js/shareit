@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Navbar.css"
+import { NavLink } from "react-router-dom";
 import { faBell, faBookOpen, faCamera, faEarthAsia, faEnvelope, faHome, faMailBulk, faMailReply, faSearch, faUser} from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import logo from "../assets/mainlogo.jpeg";
@@ -23,13 +24,17 @@ const Navbar = () => {
                 </div>
                 
         </div>
+
             <div className="navbar">
-            <div> <h1><FontAwesomeIcon className="home-icons" icon={faHome}/></h1></div>
+            <NavLink to="/">
+            <i className="far fa-bell"></i>
+            </NavLink>
+            {/* <div> <h1><FontAwesomeIcon className="home-icons" icon={faHome}/></h1></div>
             <div><h1><FontAwesomeIcon  className="home-icons" icon={faEarthAsia}/></h1></div>
             <div><h1><FontAwesomeIcon  className="home-icons" icon={faBookOpen}/></h1></div>
             <div><h1><FontAwesomeIcon  className="home-icons" icon={faCamera}/></h1></div>
             <div><h1><FontAwesomeIcon  className="home-icons" icon={faUser}/></h1></div>
-            </div>
+            */}</div>  
         </div>
     )
 }
