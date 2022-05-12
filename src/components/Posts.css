@@ -2,8 +2,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 10px;
-  margin: 30px;
+  padding: 0.625rem;
+  margin: 1.875rem;
   background-color: rgb(213, 209, 209);
   justify-content: space-between;
   width: 45%;
@@ -13,7 +13,7 @@
   flex-direction: row;
   justify-content: space-between;
   color: rgb(155, 155, 155);
-  padding: 10px;
+  padding: 0.625rem;
   position: relative;
   width: 100%;
 }
@@ -33,8 +33,8 @@
   margin-top: 0;
 }
 .post1 > div > img {
-  height: 50px;
-  width: 50px;
+  height: 3.125rem;
+  width: 3.125rem;
   border-radius: 50%;
 }
 .post1-a {
@@ -45,8 +45,8 @@
 }
 .like {
   color: red;
-  margin: 0 200px 0;
-  padding: 20px;
+  margin: 0 12.5rem 0;
+  padding: 1.25rem;
 }
 .post3 {
   display: flex;
