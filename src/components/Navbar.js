@@ -26,15 +26,12 @@ const Navbar = () => {
         </div>
 
             <div className="navbar">
-            <NavLink to="/">
-            <i className="far fa-bell"></i>
-            </NavLink>
-            {/* <div> <h1><FontAwesomeIcon className="home-icons" icon={faHome}/></h1></div>
-            <div><h1><FontAwesomeIcon  className="home-icons" icon={faEarthAsia}/></h1></div>
-            <div><h1><FontAwesomeIcon  className="home-icons" icon={faBookOpen}/></h1></div>
-            <div><h1><FontAwesomeIcon  className="home-icons" icon={faCamera}/></h1></div>
-            <div><h1><FontAwesomeIcon  className="home-icons" icon={faUser}/></h1></div>
-            */}</div>  
+            <div><NavLink to="/"><FontAwesomeIcon  className="home-icons" icon={faHome}/></NavLink></div>
+            <div><NavLink to="/explore"><FontAwesomeIcon  className="home-icons" icon={faEarthAsia}/></NavLink></div>
+            <div><NavLink to="/stories"><FontAwesomeIcon  className="home-icons" icon={faBookOpen}/></NavLink></div>
+            <div><NavLink to="/upload"><FontAwesomeIcon  className="home-icons" icon={faCamera}/></NavLink></div>
+            <div><NavLink to="/profile"><FontAwesomeIcon  className="home-icons" icon={faUser}/></NavLink></div>
+            </div>  
         </div>
     )
 }

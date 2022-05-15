@@ -7,10 +7,12 @@ import Explore from './container/Explore';
 import Stories from './container/Stories';
 import Upload from './container/Upload';
 import Profile from './container/Profile';
-
+import Navbar from './components/Navbar';
 const App=()=>{
     return(
-       <Routes>
+      <div>
+      <Navbar/>
+           <Routes>
            <Route path="login" element={<Login />}/>
            <Route path="/*" element={<Home />}/>
            <Route path="/explore" element={<Explore />} />
@@ -19,6 +21,7 @@ const App=()=>{
            <Route path="/profile" element={<Profile />}/>
            
        </Routes>
+      </div>
     
     )
 }
